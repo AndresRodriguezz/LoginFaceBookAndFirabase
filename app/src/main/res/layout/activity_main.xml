@@ -5,7 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo_vertical"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dale"
+        android:textColor="#ffff"
+        android:textSize="38sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
 
 
     <com.facebook.login.widget.LoginButton
@@ -16,5 +32,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"
         />
+
+
 
 </LinearLayout>

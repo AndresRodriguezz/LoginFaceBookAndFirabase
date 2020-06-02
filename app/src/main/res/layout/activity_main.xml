@@ -15,6 +15,7 @@
         app:srcCompat="@drawable/logo_vertical"
         android:layout_gravity="center_horizontal"/>
     <TextView
+        android:id="@+id/idUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dale"
